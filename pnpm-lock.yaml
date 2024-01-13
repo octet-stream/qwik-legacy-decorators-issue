@@ -67,6 +67,9 @@ devDependencies:
   vite:
     specifier: ^5.0.11
     version: 5.0.11(@types/node@20.11.0)
+  vite-plugin-typescript-transform:
+    specifier: ^1.2.2
+    version: 1.2.2(typescript@5.3.3)(vite@5.0.11)
   vite-tsconfig-paths:
     specifier: ^4.2.1
     version: 4.2.3(typescript@5.3.3)(vite@5.0.11)
@@ -5004,6 +5007,17 @@ packages:
       imagetools-core: 6.0.4
     transitivePeerDependencies:
       - rollup
+    dev: true
+
+  /vite-plugin-typescript-transform@1.2.2(typescript@5.3.3)(vite@5.0.11):
+    resolution: {integrity: sha512-NjR6hPZgjs1FpjG/NyII5Lar4380zdqjG8hpn7gRk6sBTrh++JkhnSUlTBqAayBYGWlc4cF7/7xg+duIkVX1uA==}
+    engines: {node: '> 14.18'}
+    peerDependencies:
+      typescript: '>= 4'
+      vite: '>= 4'
+    dependencies:
+      typescript: 5.3.3
+      vite: 5.0.11(@types/node@20.11.0)
     dev: true
 
   /vite-tsconfig-paths@4.2.3(typescript@5.3.3)(vite@5.0.11):

@@ -42,6 +42,7 @@
     "typescript": "5.3.3",
     "undici": "*",
     "vite": "^5.0.11",
+    "vite-plugin-typescript-transform": "^1.2.2",
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
